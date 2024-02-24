@@ -71,6 +71,11 @@ where `n` is the number of trials, `p` is the success probability, and `[x]` is 
 To use in Observable,
 
 ```javascript
+median = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-binomial-median/tags). For example,
+
+```javascript
 median = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@v0.2.1-umd/browser.js' )
 ```
 
@@ -83,7 +88,7 @@ var median = require( 'path/to/vendor/umd/stats-base-dists-binomial-median/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -164,7 +169,7 @@ v = median( 20, 1.5 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
