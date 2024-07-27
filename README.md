@@ -69,7 +69,7 @@ where `n` is the number of trials, `p` is the success probability, and `[x]` is 
 ## Usage
 
 ```javascript
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@v0.2.2-esm/index.mjs';
 ```
 
 #### median( n, p )
@@ -142,7 +142,7 @@ v = median( 20, 1.5 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@v0.2.2-esm/index.mjs';
 
 var v;
 var i;
