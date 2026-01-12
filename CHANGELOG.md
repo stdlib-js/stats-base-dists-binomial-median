@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2026-01-12)
 
 <section class="features">
 
@@ -34,8 +34,9 @@ A total of 2 issues were closed in this release:
 
 <details>
 
--   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh, Athan Reines)_
--   [`e658ffd`](https://github.com/stdlib-js/stdlib/commit/e658ffd3c46b5cb1ba33c0be61e55bf6995237ca) - **bench:** update random value generation [(#6856)](https://github.com/stdlib-js/stdlib/pull/6856) _(by Harsh)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`c1df69c`](https://github.com/stdlib-js/stdlib/commit/c1df69ccf92f1ce80f08883226dd4252644f0324) - **docs:** replace manual `for` loop in examples [(#6848)](https://github.com/stdlib-js/stdlib/pull/6848) _(by Harsh Yadav, Athan Reines)_
+-   [`e658ffd`](https://github.com/stdlib-js/stdlib/commit/e658ffd3c46b5cb1ba33c0be61e55bf6995237ca) - **bench:** update random value generation [(#6856)](https://github.com/stdlib-js/stdlib/pull/6856) _(by Harsh Yadav)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`6670680`](https://github.com/stdlib-js/stdlib/commit/6670680a8981818c8e3774da4bf2a8c7dedb4715) - **chore:** address commit comments and use discrete uniform PRNG [(#5313)](https://github.com/stdlib-js/stdlib/pull/5313) _(by Rishav Tarway)_
 -   [`9b455b1`](https://github.com/stdlib-js/stdlib/commit/9b455b15cb301af9ecc7eff8960e223a3a7d1b24) - **feat:** add C implementation for `stats/base/dists/binomial/median` [(#3950)](https://github.com/stdlib-js/stdlib/pull/3950) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
@@ -54,7 +55,7 @@ A total of 2 issues were closed in this release:
 A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
