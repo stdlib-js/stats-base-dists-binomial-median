@@ -69,7 +69,7 @@ where `n` is the number of trials, `p` is the success probability, and `[x]` is 
 ## Usage
 
 ```javascript
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@v0.3.0-esm/index.mjs';
 ```
 
 #### median( n, p )
@@ -143,7 +143,7 @@ v = median( 20, 1.5 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@esm/index.mjs';
+import median from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-median@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
